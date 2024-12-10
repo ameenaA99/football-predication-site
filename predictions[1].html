@@ -1,0 +1,26 @@
+{% extends "layouts/default.html" %}
+
+{% block content %}
+    <div class="predictions-container">
+        <h2>التوقعات القادمة للمباريات</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>التاريخ</th>
+                    <th>المباراة</th>
+                    <th>الوقت</th>
+                    <th>التوقعات</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-12-15</td>
+                    <td>فريق A ضد فريق B</td>
+                    <td>20:00</td>
+                    <td><input type="text" placeholder="التوقعات"></td>
+                </tr>
+                <!-- يمكنك إضافة المزيد من المباريات هنا -->
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
